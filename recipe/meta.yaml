@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: True  # [py3k or not np==111]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
@@ -26,7 +26,7 @@ requirements:
     - nibabel >=1.1,<2.1.0
     - sympy >=0.7
     - nipy >=0.3.0
-    - matplotlib >=1.1
+    - matplotlib-base >=1.1
     - colorama
     - click
     - sphinx
@@ -39,7 +39,7 @@ requirements:
     - nibabel >=1.1,<2.1.0
     - sympy >=0.7
     - nipy >=0.3.0
-    - matplotlib >=1.1
+    - matplotlib-base >=1.1
     - colorama
     - click
     - sphinx
