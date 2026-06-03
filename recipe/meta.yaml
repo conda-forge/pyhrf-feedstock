@@ -1,6 +1,6 @@
 {% set name = "pyhrf" %}
-{% set version = "0.4.3" %}
-{% set sha256 = "23b406373dff7a8b49bf8eb674e2b9742b4409ab5b9ce430db7575c10119e515" %}
+{% set version = "0.5.0.post1" %}
+{% set sha256 = "dc2384973631ba5df01d136c0f2643f67f1df7501580c9cd1bb50b66fcafee24" %}
 
 package:
   name: {{ name|lower }}
